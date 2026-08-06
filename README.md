@@ -6,7 +6,7 @@ A responsive React + TypeScript application built using the **SWAPI (Star Wars A
 
 ## 🚀 Live Demo
 
-> Add your Netlify/Vercel link here
+> Add your Vercel deployment link here after deployment.
 
 Example:
 
@@ -34,7 +34,7 @@ https://your-app.vercel.app
 - ✅ Character details modal
 - ✅ Homeworld information
 - ✅ Search by character name
-- ✅ Mock JWT Login Authentication
+- ✅ Mock Authentication (Login/Logout)
 - ✅ Responsive UI
 
 ---
@@ -93,13 +93,13 @@ https://your-app.vercel.app
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/KajalGupta2345/tsx-mern-06Aug2026
 ```
 
 Move into project
 
 ```bash
-cd starwars-app
+cd tsx-mern-06Aug2026
 ```
 
 Install dependencies
@@ -128,15 +128,19 @@ npm run preview
 
 ---
 
-# 🔑 Mock Login Credentials
+# 🔑 Authentication
 
-Username
+This app implements a simple **mock authentication flow** (username/password check using local storage), since the SWAPI does not require authentication.
+
+### Login Credentials
+
+**Username**
 
 ```
 admin
 ```
 
-Password
+**Password**
 
 ```
 admin123
@@ -168,22 +172,25 @@ https://swapi.tech/api/planets/:id
 
 # 📁 Folder Structure
 
-```
+```text
 src/
-│── components/
+│── auth/
+│   ├── Login.tsx
+│   └── Auth.ts
 │── types/
-│── utils/
+│   ├── Character.ts
+│   ├── CharacterDetails.ts
+│   └── Homeworld.ts
 │── App.tsx
-│── Login.tsx
-│── Auth.ts
+│── main.tsx
 
 screenshots/
-│── login.png
-│── home-top.png
-│── home-middle.png
-│── home-bottom.png
-│── modal.png
-│── search.png
+├── login.png
+├── home-top.png
+├── home-middle.png
+├── home-bottom.png
+├── modal.png
+└── search.png
 ```
 
 ---
@@ -191,7 +198,7 @@ screenshots/
 # 🎯 Assignment Requirements Covered
 
 | Requirement | Status |
-|------------|--------|
+|-------------|--------|
 | Character List | ✅ |
 | Pagination | ✅ |
 | Loading State | ✅ |
@@ -203,7 +210,7 @@ screenshots/
 | Character Details | ✅ |
 | Homeworld Details | ✅ |
 | Search Filter | ✅ |
-| Mock JWT Authentication | ✅ |
+| Authentication (Mocked) | ✅ |
 | Responsive Design | ✅ |
 
 ---
@@ -212,4 +219,4 @@ screenshots/
 
 **Kajal Kumari**
 
-B.Tech Computer Science (2026)
+B.Tech in Computer Science (2026)
