@@ -6,14 +6,7 @@ A responsive React + TypeScript application built using the **SWAPI (Star Wars A
 
 ## 🚀 Live Demo
 
-> Add your Vercel deployment link here after deployment.
-
-Example:
-
-```
-https://your-app.vercel.app
-```
-
+[Live Demo](https://tsx-mern-06-aug2026-psi-brown.vercel.app)
 ---
 
 ## 📂 GitHub Repository
