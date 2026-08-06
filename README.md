@@ -18,13 +18,7 @@ https://your-app.vercel.app
 
 ## 📂 GitHub Repository
 
-> Add your GitHub repository link here
-
-Example:
-
-```
-https://github.com/yourusername/tsx-mern-06Aug2026
-```
+[GitHub Repository](https://github.com/<your-username>/<your-repository-name>)
 
 ---
 
