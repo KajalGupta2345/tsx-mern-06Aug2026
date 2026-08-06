@@ -18,7 +18,7 @@ https://your-app.vercel.app
 
 ## 📂 GitHub Repository
 
-[GitHub Repository](https://github.com/<your-username>/<your-repository-name>)
+[GitHub Repository](https://github.com/KajalGupta2345/tsx-mern-06Aug2026)
 
 ---
 
