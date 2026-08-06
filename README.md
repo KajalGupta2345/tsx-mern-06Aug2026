@@ -143,7 +143,7 @@ admin
 **Password**
 
 ```
-admin123
+12345
 ```
 
 ---
